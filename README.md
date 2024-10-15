@@ -15,7 +15,7 @@ python inferrence.py
 Training includes pretrain and sft.
 
 ### Pretrain
-Process your dataset by modifying the data_preprocess.py file, then modify the relevant PreTrainDataset in pertrain.py to fit your dataset, and run pretrain.py for pretrain.
+Process your pretrain dataset by modifying the data_preprocess.py file, then modify the relevant PreTrainDataset in pertrain.py to fit your dataset, and run pretrain.py for pretrain.
 
 ### SFT
-Process your dataset by modifying the data_preprocess_sft.py file, then modify the relevant LCSTSDataset in sft.py to fit your dataset, and run sft.py for SFT.
+Process your sft dataset by modifying the data_preprocess_sft.py file, then modify the relevant LCSTSDataset in sft.py to fit your dataset, and run sft.py for SFT.
